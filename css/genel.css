@@ -1,0 +1,77 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.menu{
+	color: darkgrey;
+	padding: 10px;
+	margin: 5px;
+	border-bottom: 2px solid #fff;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+.menu:hover{
+	color: #e74c3c;
+	border-bottom: 2px solid #e74c3c;
+	text-decoration: none;
+}
+.menu:focus{
+	color: darkgrey;
+}
+.menutwo{
+	background: #e74c3c;
+	color: #fff;
+	padding: 5px;
+	border: 1px solid #e74c3c;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.menutwo:hover{
+	cursor: pointer;
+	text-decoration: none;
+}
+.menutwo:focus{
+	border: 1px solid #c0392b;
+	text-decoration: none;
+}
+textarea{
+	margin: 0px;
+	width: 50%;
+	height: 87px;
+	padding: 5px;
+	border: 1px solid darkgrey;
+	border-radius: 3px;
+}
+textarea:hover{
+	padding: 5px;
+	border: 1px solid #e74c3c;
+	border-radius: 3px;
+}
+textarea:focus{
+	border: 1px solid #c0392b;
+}
+input[type=text], .text{
+	padding: 5px;
+	border: 1px solid darkgrey;
+	border-radius: 3px;
+}
+input[type=text]:hover, .text:hover{
+	padding: 5px;
+	border: 1px solid #e74c3c;
+	border-radius: 3px;
+}
+input[type=text]:focus, .text:focus{
+	border: 1px solid #c0392b;
+}
+input[type=submit]{
+	background: #e74c3c;
+	color: #fff;
+	padding: 5px;
+	border: 1px solid #e74c3c;
+	border-radius: 3px;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+}
+input[type=submit]:focus{
+	border: 1px solid #c0392b;
+}
